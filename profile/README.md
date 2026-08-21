@@ -12,17 +12,6 @@ Built as a flagship enterprise use case proposal for [Midnight Network](https://
 
 ---
 
-## Proposal
-
-| | |
-|---|---|
-| [Overview](https://shieldvin.github.io/proposal/) | Project introduction and navigation |
-| [One-Page Summary](https://shieldvin.github.io/proposal/shieldvin-summary.html) | Chips, proof flow, stakeholder access, revenue |
-| [Interactive Demo](https://shieldvin.github.io/proposal/shieldvin-demo.html) | Live verification simulation across all roles |
-| [Full Whitepaper](https://shieldvin.github.io/proposal/whitepaper.html) | Technical and business proposal — 15 sections |
-| [Market Opportunity](https://shieldvin.github.io/proposal/market-opportunity.html) | OEM adoption scenarios with live revenue modelling |
-| [Process Flow](https://shieldvin.github.io/proposal/process-flow.html) | 14-phase vehicle lifecycle |
-| [Glossary](https://shieldvin.github.io/proposal/glossary.html) | 50 terms across 8 categories |
 
 ---
 
