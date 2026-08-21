@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="https://shieldvin.github.io/proposal/logo.png" alt="ShieldVIN" width="80"/>
-  <h1>ShieldVIN</h1>
+  <img src="https://raw.githubusercontent.com/ShieldVIN/.github/main/profile/shieldvin-banner.png" alt="ShieldVIN — Proving a Vehicle History" width="700"/>
   <p><strong>Cryptographic vehicle identity on Midnight Network's zero-knowledge proof blockchain.</strong></p>
   <p>Three tamper-resistant chips. One unforgeable identity. Zero personal data on-chain.</p>
 </div>
