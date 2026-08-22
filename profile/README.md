@@ -22,6 +22,12 @@ can see everything. Same record, same proof, different answers.
 
 ---
 
+### Repositories
+
+| | |
+|---|---|
+| **[shieldvin](https://github.com/ShieldVIN/shieldvin)** | The passport — architecture, decisions, roadmap, and the build |
+
 ### Built on
 
 Zero-knowledge proofs on [Midnight Network](https://midnight.network), with chain integration by
