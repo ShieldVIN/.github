@@ -12,13 +12,19 @@ in force since 13 August 2026. The regulation requires that passport to be *alig
 with other vehicle related environmental passports* — most obviously the EV battery passport
 mandatory from February 2027.
 
-ShieldVIN implements that passport with **selective disclosure**. One canonical vehicle record,
-anchored once. From it, each party — buyer, dealer, recycler, insurer, regulator — can be shown
-exactly what they are entitled to see, and provably nothing more.
+ShieldVIN implements that passport with **selective disclosure**. One canonical vehicle record —
+identity, provenance, accident and service history, inspection record, type approval, environmental
+declarations — anchored once. From it, each party — buyer, dealer, recycler, insurer, regulator —
+can be shown exactly what they are entitled to see, and provably nothing more.
 
-A buyer can be told the odometer has never been rolled back **without ever being shown a reading**.
-A recycler can verify recycled-content thresholds without learning supplier economics. A regulator
-can see everything. Same record, same proof, different answers.
+An EV's **battery** is a separate regime with its own passport. Ours carries a reference to it
+rather than restating its claims: the regulation asks these passports to interoperate, not to
+absorb one another.
+
+A buyer can be told the vehicle was **never written off** and has **no reported accidents**, without
+being shown the file. A recycler can verify recycled-content thresholds without learning supplier
+economics. A dealer can prove the mileage has never been wound back without publishing a reading. A
+regulator can see everything. Same record, same proof, different answers.
 
 ---
 
