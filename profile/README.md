@@ -1,7 +1,13 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ShieldVIN/.github/main/profile/shieldvin-banner.png" alt="ShieldVIN — Proving a Vehicle History" width="700"/>
+  <img src="https://raw.githubusercontent.com/VINPassport/.github/main/profile/vinpassport-banner.png" alt="VINPassport, proving a vehicle identity" width="700"/>
   <p><strong>A Digital Circularity Vehicle Passport built on Midnight's zero-knowledge blockchain.</strong></p>
   <p>Prove what a vehicle is. Reveal only what the asker is entitled to see.</p>
+  <p>
+    <a href="https://vinpassport.github.io/VINPassport/"><b>Live demo</b></a> ·
+    <a href="https://vinpassport.github.io/VINPassport/console/"><b>Intake console</b></a> ·
+    <a href="https://vinpassport.github.io/VINPassport/proofs/"><b>Proof explorer</b></a> ·
+    <a href="https://vinpassport.github.io/VINPassport/deck/"><b>Slide deck</b></a>
+  </p>
 </div>
 
 ---
@@ -9,12 +15,12 @@
 From **1 September 2032**, every vehicle placed on the EU market must carry a Digital Circularity
 Vehicle Passport under [Regulation (EU) 2026/1738](https://eur-lex.europa.eu/eli/reg/2026/1738/oj),
 in force since 13 August 2026. The regulation requires that passport to be *aligned and interoperable
-with other vehicle related environmental passports* — most obviously the EV battery passport
+with other vehicle related environmental passports*, most obviously the EV battery passport
 mandatory from February 2027.
 
-ShieldVIN implements that passport with **selective disclosure**. One canonical vehicle record —
-identity, provenance, accident and service history, inspection record, type approval, environmental
-declarations — anchored once. From it, each party — buyer, dealer, recycler, insurer, regulator —
+VINPassport implements that passport with **selective disclosure**. One canonical vehicle record
+(identity, provenance, accident and service history, inspection record, type approval, environmental
+declarations) anchored once. From it, each party (buyer, dealer, recycler, insurer, regulator)
 can be shown exactly what they are entitled to see, and provably nothing more.
 
 An EV's **battery** is a separate regime with its own passport. Ours carries a reference to it
@@ -26,8 +32,8 @@ being shown the file. A recycler can verify recycled-content thresholds without 
 economics. A dealer can prove the mileage has never been wound back without publishing a reading. A
 regulator can see everything. Same record, same proof, different answers.
 
-Every proof that holds leaves a **public record of the claim** — which vehicle, which field, which
-bound — and never the value behind it. So a verdict can be checked by anyone, against the chain,
+Every proof that holds leaves a **public record of the claim** (which vehicle, which field, which
+bound) and never the value behind it. So a verdict can be checked by anyone, against the chain,
 without anyone being handed the file.
 
 ---
@@ -36,16 +42,16 @@ without anyone being handed the file.
 
 | | |
 |---|---|
-| **[shieldvin](https://github.com/ShieldVIN/shieldvin)** | The passport — architecture, decisions, roadmap, and the build |
+| **[VINPassport](https://github.com/VINPassport/VINPassport)** | The passport: architecture, decisions, roadmap, and the build |
 
 ### Built on
 
 Zero-knowledge proofs on [Midnight Network](https://midnight.network). The passport contract is
-ShieldVIN’s own work. The field panel, transaction building and fee sponsoring use tooling from
-[ODATANO](https://github.com/ODATANO) — which pays and submits, and never sees a private value.
+VINPassport's own work. The field panel, transaction building and fee sponsoring use tooling from
+[ODATANO](https://github.com/ODATANO), which pays and submits, and never sees a private value.
 
 ---
 
 <div align="center">
-  <sub>Rebuilt from scratch, August 2026 · Apache-2.0</sub>
+  <sub>Formerly ShieldVIN. Renamed August 2026 after a company-name collision · Rebuilt from scratch, August 2026 · Apache-2.0</sub>
 </div>
