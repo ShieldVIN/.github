@@ -26,6 +26,10 @@ being shown the file. A recycler can verify recycled-content thresholds without 
 economics. A dealer can prove the mileage has never been wound back without publishing a reading. A
 regulator can see everything. Same record, same proof, different answers.
 
+Every proof that holds leaves a **public record of the claim** — which vehicle, which field, which
+bound — and never the value behind it. So a verdict can be checked by anyone, against the chain,
+without anyone being handed the file.
+
 ---
 
 ### Repositories
@@ -36,9 +40,9 @@ regulator can see everything. Same record, same proof, different answers.
 
 ### Built on
 
-Zero-knowledge proofs on [Midnight Network](https://midnight.network), with chain integration by
-[NIGHTGATE](https://github.com/ODATANO/NIGHTGATE) — an OData V4 gateway to Midnight from
-[ODATANO](https://github.com/ODATANO).
+Zero-knowledge proofs on [Midnight Network](https://midnight.network). The passport contract is
+ShieldVIN’s own work. The field panel, transaction building and fee sponsoring use tooling from
+[ODATANO](https://github.com/ODATANO) — which pays and submits, and never sees a private value.
 
 ---
 
