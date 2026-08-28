@@ -3,10 +3,8 @@
   <p><strong>A Digital Circularity Vehicle Passport built on Midnight's zero-knowledge blockchain.</strong></p>
   <p>Prove what a vehicle is. Reveal only what the asker is entitled to see.</p>
   <p>
-    <a href="https://vinpassport.github.io/VINPassport/"><b>Live demo</b></a> ·
-    <a href="https://vinpassport.github.io/VINPassport/console/"><b>Intake console</b></a> ·
-    <a href="https://vinpassport.github.io/VINPassport/proofs/"><b>Proof explorer</b></a> ·
-    <a href="https://vinpassport.github.io/VINPassport/deck/"><b>Slide deck</b></a>
+    <a href="https://passport.vin/"><b>Website (Live Demo)</b></a> ·
+    <a href="https://passport.vin/deck/"><b>Slide deck</b></a>
   </p>
 </div>
 
