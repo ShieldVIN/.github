@@ -45,8 +45,10 @@ without anyone being handed the file.
 ### Built on
 
 Zero-knowledge proofs on [Midnight Network](https://midnight.network). The passport contract is
-VINPassport's own work. The field panel, transaction building and fee sponsoring use tooling from
-[ODATANO](https://github.com/ODATANO), which pays and submits, and never sees a private value.
+VINPassport's own work. The field panel and local transaction building use tooling from
+[ODATANO](https://github.com/ODATANO), who also sponsored the contract deployment. Every
+transaction is built, proven and signed on our side, so no private value ever leaves the process.
+Fees for the live demo are paid from our own wallet.
 
 ---
 
